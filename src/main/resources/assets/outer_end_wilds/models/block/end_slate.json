@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "outer_end_wilds:block/slatetop",
+    "up": "outer_end_wilds:block/slatetop",
+    "north": "outer_end_wilds:block/slateside",
+    "east": "outer_end_wilds:block/slateside",
+    "south": "outer_end_wilds:block/slateside",
+    "west": "outer_end_wilds:block/slateside",
+    "particle": "outer_end_wilds:block/slatetop"
+  },
+  "render_type": "solid"
+}

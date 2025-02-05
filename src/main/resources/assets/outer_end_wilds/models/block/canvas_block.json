@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outer_end_wilds:block/canvas",
+    "particle": "outer_end_wilds:block/canvas"
+  },
+  "render_type": "solid"
+}

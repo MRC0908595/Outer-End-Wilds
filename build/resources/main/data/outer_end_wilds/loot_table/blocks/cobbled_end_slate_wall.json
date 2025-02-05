@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "outer_end_wilds:blocks/cobbled_end_slate_wall",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "outer_end_wilds:cobbled_end_slate_wall"
+        }
+      ]
+    }
+  ]
+}

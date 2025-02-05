@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "outer_end_wilds:block/endstone",
+    "top": "outer_end_wilds:block/nyliumtop",
+    "side": "outer_end_wilds:block/nyliumside",
+    "overlay": "outer_end_wilds:block/nyliumside",
+    "particle": "outer_end_wilds:block/endstone"
+  },
+  "render_type": "cutout_mipped"
+}

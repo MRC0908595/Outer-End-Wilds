@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "outer_end_wilds:cut_void_rock_wall",
+    "outer_end_wilds:void_rock_brick_wall"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "outer_end_wilds:end_slate",
+    "outer_end_wilds:end_slate_bricks",
+    "outer_end_wilds:end_slate_brick_slab",
+    "outer_end_wilds:end_slate_brick_stairs",
+    "outer_end_wilds:end_slate_brick_wall",
+    "outer_end_wilds:end_slate_tiles",
+    "outer_end_wilds:end_slate_tile_slab",
+    "outer_end_wilds:end_slate_tile_stairs",
+    "outer_end_wilds:end_slate_tile_wall",
+    "outer_end_wilds:polished_end_slate",
+    "outer_end_wilds:polished_end_slate_slab",
+    "outer_end_wilds:polished_end_slate_stairs",
+    "outer_end_wilds:polished_end_slate_wall",
+    "outer_end_wilds:cobbled_end_slate",
+    "outer_end_wilds:cobbled_end_slate_slab",
+    "outer_end_wilds:cobbled_end_slate_stairs",
+    "outer_end_wilds:cobbled_end_slate_wall"
+  ]
+}

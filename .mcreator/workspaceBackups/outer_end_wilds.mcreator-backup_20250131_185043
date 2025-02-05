@@ -1,0 +1,2440 @@
+{
+  "mod_elements": [
+    {
+      "name": "WildLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/WildLogBlock.java",
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_log.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_log.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_log.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_log.json"
+        ]
+      }
+    },
+    {
+      "name": "WildPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/WildPlanksBlock.java",
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_planks.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_planks.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_planks.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WildLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_leaves.json",
+          "src/main/java/net/mcreator/outerendwilds/block/WildLeavesBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_leaves.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_leaves.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "WildStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_stairs_outer.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_stairs_inner.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_stairs.json",
+          "src/main/java/net/mcreator/outerendwilds/block/WildStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WildSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_slab.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_slab.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_slab.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_slab.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_slab_full.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_slab_top.json",
+          "src/main/java/net/mcreator/outerendwilds/block/WildSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WildFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_fence.json",
+          "src/main/java/net/mcreator/outerendwilds/block/WildFenceBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_fence_post.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_fence_inventory.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_fence.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_fence.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "WildFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_fence_gate.json",
+          "src/main/java/net/mcreator/outerendwilds/block/WildFenceGateBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_fence_gate_wall_open.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_fence_gate.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_fence_gate.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_fence_gate_open.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_fence_gate_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "WildPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/WildPressurePlateBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_pressure_plate_down.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_pressure_plate.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_pressure_plate.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_pressure_plate.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "WildButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_button_pressed.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_button_inventory.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_button.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_button.json",
+          "src/main/java/net/mcreator/outerendwilds/block/WildButtonBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_button.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_button.json"
+        ]
+      }
+    },
+    {
+      "name": "WildPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/wild_planks_log_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WildStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/wild_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WildSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/wild_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WildFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/wild_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WildFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/wild_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WildPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/wild_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WildButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/wild_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WildStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/wild_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OuterEndWilds",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_end_wilds",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WildNylium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_nylium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/WildNyliumBlock.java",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_nylium.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_nylium.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_nylium.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_nylium.json"
+        ]
+      }
+    },
+    {
+      "name": "WildWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_wood.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_wood.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_wood.json",
+          "src/main/java/net/mcreator/outerendwilds/block/WildWoodBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "Craftbark",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftbark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/craftbark.json"
+        ]
+      }
+    },
+    {
+      "name": "Wildplankswood",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildplankswood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/wildplankswood.json"
+        ]
+      }
+    },
+    {
+      "name": "EndWilds",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_wilds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/worldgen/biome/end_wilds.json"
+        ]
+      }
+    },
+    {
+      "name": "EWild",
+      "type": "endbiome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_wild",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WildTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/worldgen/configured_feature/wild_tree.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/placed_feature/wild_tree.json",
+          "src/main/resources/data/outer_end_wilds/neoforge/biome_modifier/wild_tree_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "WildRoot",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/wild_root.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/placed_feature/wild_root.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/wild_root.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/wild_root.json",
+          "src/main/resources/data/outer_end_wilds/neoforge/biome_modifier/wild_root_biome_modifier.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/wild_root.json",
+          "src/main/java/net/mcreator/outerendwilds/block/WildRootBlock.java",
+          "src/main/resources/data/outer_end_wilds/worldgen/configured_feature/wild_root.json"
+        ]
+      }
+    },
+    {
+      "name": "EndRodBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_rod_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_rod_block.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_rod_block.json",
+          "src/main/java/net/mcreator/outerendwilds/block/EndRodBlockBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/end_rod_block.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_rod_block.json"
+        ]
+      }
+    },
+    {
+      "name": "PackRod",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pack_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/pack_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianClaymore",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "obsidian_claymore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/item/ObsidianClaymoreItem.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/obsidian_claymore.json"
+        ]
+      }
+    },
+    {
+      "name": "Teleport",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/TeleportProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SnarelingOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snareling_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/SnarelingOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SnarelingIdlePlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snareling_idle_playback_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/SnarelingIdlePlaybackConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Snareling",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snareling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/item/snareling_spawn_egg.json",
+          "src/main/java/net/mcreator/outerendwilds/client/renderer/SnarelingRenderer.java",
+          "src/main/java/net/mcreator/outerendwilds/entity/SnarelingEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SnarelingEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snareling_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/SnarelingEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SnarelingHurtPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snareling_hurt_playback_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/SnarelingHurtPlaybackConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SnarelingGoop",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snareling_goop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/item/SnarelingGoopItem.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/snareling_goop.json"
+        ]
+      }
+    },
+    {
+      "name": "Ensnared",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ensnared",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/potion/EnsnaredMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "GoopProjectileProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goop_projectile_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/GoopProjectileProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoopProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goop_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/entity/GoopProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SnarelingGoopRangedItemShootsProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snareling_goop_ranged_item_shoots_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/SnarelingGoopRangedItemShootsProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SnarelingDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snareling_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/entities/snareling.json"
+        ]
+      }
+    },
+    {
+      "name": "EndSlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_slate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/item/end_slate.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_slate.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_slate.json",
+          "src/main/java/net/mcreator/outerendwilds/block/EndSlateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WildTree2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_tree_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/neoforge/biome_modifier/wild_tree_2_biome_modifier.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/placed_feature/wild_tree_2.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/configured_feature/wild_tree_2.json"
+        ]
+      }
+    },
+    {
+      "name": "WildTree3",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_tree_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/worldgen/placed_feature/wild_tree_3.json",
+          "src/main/resources/data/outer_end_wilds/neoforge/biome_modifier/wild_tree_3_biome_modifier.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/configured_feature/wild_tree_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Disc",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/worldgen/placed_feature/disc.json",
+          "src/main/resources/data/outer_end_wilds/neoforge/biome_modifier/disc_biome_modifier.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/configured_feature/disc.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteBlockAdditionalHarvestCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_block_additional_harvest_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/EnderiteBlockAdditionalHarvestConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/enderite_block.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/enderite_block.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/enderite_block.json",
+          "src/main/java/net/mcreator/outerendwilds/block/EnderiteBlockBlock.java",
+          "src/main/resources/assets/outer_end_wilds/blockstates/enderite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "TwistFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twist_flower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/TwistFlowerBlock.java",
+          "src/main/resources/data/outer_end_wilds/neoforge/biome_modifier/twist_flower_biome_modifier.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/configured_feature/twist_flower.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/twist_flower_bottom.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/twist_flower.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/twist_flower.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/twist_flower.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/placed_feature/twist_flower.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/twist_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "TwistPetals",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twist_petals",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/item/TwistPetalsItem.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/twist_petals.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftPetals",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_petals",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/craft_petals.json"
+        ]
+      }
+    },
+    {
+      "name": "ClayDisc",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clay_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/worldgen/placed_feature/clay_disc.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/configured_feature/clay_disc.json",
+          "src/main/resources/data/outer_end_wilds/neoforge/biome_modifier/clay_disc_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Clay",
+      "type": "endstone",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clay",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Nyl",
+      "type": "endstone",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyl",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AcidBurn",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_burn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/damage_type/acid_burn.json"
+        ]
+      }
+    },
+    {
+      "name": "AcidMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/AcidMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Acid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/fluid/AcidFluid.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/acid_bucket.json",
+          "src/main/java/net/mcreator/outerendwilds/block/AcidBlock.java",
+          "src/main/java/net/mcreator/outerendwilds/item/AcidItem.java",
+          "src/main/java/net/mcreator/outerendwilds/fluid/types/AcidFluidType.java",
+          "src/main/resources/assets/outer_end_wilds/blockstates/acid.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/acid.json"
+        ]
+      }
+    },
+    {
+      "name": "EndSlateBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_slate_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_slate_bricks.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/end_slate_bricks.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_slate_bricks.json",
+          "src/main/java/net/mcreator/outerendwilds/block/EndSlateBricksBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "EndSlateBrickSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_slate_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_slate_brick_slab.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/end_slate_brick_slab.json",
+          "src/main/java/net/mcreator/outerendwilds/block/EndSlateBrickSlabBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_brick_slab_top.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_brick_slab.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_brick_slab_full.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_slate_brick_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "EndSlateBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_slate_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_brick_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_brick_stairs_outer.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_slate_brick_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/end_slate_brick_stairs.json",
+          "src/main/java/net/mcreator/outerendwilds/block/EndSlateBrickStairsBlock.java",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_slate_brick_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_brick_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "EndSlateBrickWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_slate_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/EndSlateBrickWallBlock.java",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_slate_brick_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/end_slate_brick_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_brick_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_brick_wall_inventory.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_slate_brick_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_brick_wall_post.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_brick_wall_side_tall.json"
+        ]
+      }
+    },
+    {
+      "name": "EndSlateTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_slate_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_tiles.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_slate_tiles.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/end_slate_tiles.json",
+          "src/main/java/net/mcreator/outerendwilds/block/EndSlateTilesBlock.java",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_slate_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "EndSlateTileSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_slate_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_tile_slab_full.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_slate_tile_slab.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_slate_tile_slab.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/end_slate_tile_slab.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_tile_slab.json",
+          "src/main/java/net/mcreator/outerendwilds/block/EndSlateTileSlabBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_tile_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "EndSlateTileStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_slate_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_slate_tile_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_tile_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_tile_stairs_inner.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/end_slate_tile_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_tile_stairs_outer.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_slate_tile_stairs.json",
+          "src/main/java/net/mcreator/outerendwilds/block/EndSlateTileStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "EndSlateTileWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_slate_tile_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_tile_wall_side_tall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_tile_wall_post.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_slate_tile_wall.json",
+          "src/main/java/net/mcreator/outerendwilds/block/EndSlateTileWallBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_tile_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/end_slate_tile_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_slate_tile_wall_inventory.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_slate_tile_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedEndSlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_end_slate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/polished_end_slate.json",
+          "src/main/java/net/mcreator/outerendwilds/block/PolishedEndSlateBlock.java",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/polished_end_slate.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/polished_end_slate.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/polished_end_slate.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedEndSlateSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_end_slate_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/item/polished_end_slate_slab.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/polished_end_slate_slab.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/polished_end_slate_slab_top.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/polished_end_slate_slab.json",
+          "src/main/java/net/mcreator/outerendwilds/block/PolishedEndSlateSlabBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/polished_end_slate_slab_full.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/polished_end_slate_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedEndSlateStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_end_slate_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/polished_end_slate_stairs_outer.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/polished_end_slate_stairs.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/polished_end_slate_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/polished_end_slate_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/polished_end_slate_stairs_inner.json",
+          "src/main/java/net/mcreator/outerendwilds/block/PolishedEndSlateStairsBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/polished_end_slate_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedEndSlateWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_end_slate_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/blockstates/polished_end_slate_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/polished_end_slate_wall_side_tall.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/polished_end_slate_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/polished_end_slate_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/polished_end_slate_wall_inventory.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/polished_end_slate_wall.json",
+          "src/main/java/net/mcreator/outerendwilds/block/PolishedEndSlateWallBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/polished_end_slate_wall_post.json"
+        ]
+      }
+    },
+    {
+      "name": "CobbledEndSlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_end_slate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/cobbled_end_slate.json",
+          "src/main/java/net/mcreator/outerendwilds/block/CobbledEndSlateBlock.java",
+          "src/main/resources/assets/outer_end_wilds/blockstates/cobbled_end_slate.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/cobbled_end_slate.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/cobbled_end_slate.json"
+        ]
+      }
+    },
+    {
+      "name": "CobbledEndSlateSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_end_slate_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/cobbled_end_slate_slab.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/cobbled_end_slate_slab_full.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/cobbled_end_slate_slab_top.json",
+          "src/main/java/net/mcreator/outerendwilds/block/CobbledEndSlateSlabBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/cobbled_end_slate_slab.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/cobbled_end_slate_slab.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/cobbled_end_slate_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "CobbledEndSlateStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_end_slate_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/cobbled_end_slate_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/cobbled_end_slate_stairs_outer.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/cobbled_end_slate_stairs.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/cobbled_end_slate_stairs.json",
+          "src/main/java/net/mcreator/outerendwilds/block/CobbledEndSlateStairsBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/cobbled_end_slate_stairs_inner.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/cobbled_end_slate_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "CobbledEndSlateWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_end_slate_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/cobbled_end_slate_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/cobbled_end_slate_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/cobbled_end_slate_wall_post.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/cobbled_end_slate_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/cobbled_end_slate_wall.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/cobbled_end_slate_wall_inventory.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/cobbled_end_slate_wall_side_tall.json",
+          "src/main/java/net/mcreator/outerendwilds/block/CobbledEndSlateWallBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Cut1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_4.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut5",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut6",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_6.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut7",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_7.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut8",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_8.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut9",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_9.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut10",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_10.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut11",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_11",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_11.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut12",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_12.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut13",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_13",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_13.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut14",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_14",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_14.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut15",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_15",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_15.json"
+        ]
+      }
+    },
+    {
+      "name": "Cut16",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_16",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_16.json"
+        ]
+      }
+    },
+    {
+      "name": "Titledrop",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titledrop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/advancement/titledrop.json"
+        ]
+      }
+    },
+    {
+      "name": "BiomeCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biome_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/BiomeCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndWildsAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_wilds_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/advancement/end_wilds_adv.json"
+        ]
+      }
+    },
+    {
+      "name": "RecoloredDeepslate",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recolored_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/advancement/recolored_deepslate.json"
+        ]
+      }
+    },
+    {
+      "name": "CanvasBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canvas_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/blockstates/canvas_block.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/canvas_block.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/canvas_block.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/canvas_block.json",
+          "src/main/java/net/mcreator/outerendwilds/block/CanvasBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/item/EnderiteIngotItem.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/enderite_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/item/enderite_nugget.json",
+          "src/main/java/net/mcreator/outerendwilds/item/EnderiteNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftCanvas",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_canvas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/craft_canvas.json"
+        ]
+      }
+    },
+    {
+      "name": "CanvasBlocks",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canvas_blocks",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CanvasBlock1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canvas_block_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/CanvasBlock1Block.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/canvas_block_1.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/canvas_block_1.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/canvas_block_1.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/canvas_block_1.json"
+        ]
+      }
+    },
+    {
+      "name": "CanvasBlock2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canvas_block_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/canvas_block_2.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/canvas_block_2.json",
+          "src/main/java/net/mcreator/outerendwilds/block/CanvasBlock2Block.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/canvas_block_2.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/canvas_block_2.json"
+        ]
+      }
+    },
+    {
+      "name": "CutCanvas1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_canvas_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_canvas_1.json"
+        ]
+      }
+    },
+    {
+      "name": "CutCanvas2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_canvas_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_canvas_2.json"
+        ]
+      }
+    },
+    {
+      "name": "CanvasBlock3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canvas_block_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/blockstates/canvas_block_3.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/canvas_block_3_full.json",
+          "src/main/java/net/mcreator/outerendwilds/block/CanvasBlock3Block.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/canvas_block_3.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/canvas_block_3_top.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/canvas_block_3.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/canvas_block_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Smelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/smelt.json"
+        ]
+      }
+    },
+    {
+      "name": "CanvasBlock4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canvas_block_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/CanvasBlock4Block.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/canvas_block_4.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/canvas_block_4.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/canvas_block_4.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/canvas_block_4.json"
+        ]
+      }
+    },
+    {
+      "name": "CutCanvas3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_canvas_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_canvas_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Cutcanvas4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutcanvas_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cutcanvas_4.json"
+        ]
+      }
+    },
+    {
+      "name": "CanvasBlock5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canvas_block_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/item/canvas_block_5.json",
+          "src/main/java/net/mcreator/outerendwilds/block/CanvasBlock5Block.java",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/canvas_block_5.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/canvas_block_5.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/canvas_block_5.json"
+        ]
+      }
+    },
+    {
+      "name": "CanvasBlock6",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canvas_block_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/CanvasBlock6Block.java",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/canvas_block_6.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/canvas_block_6.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/canvas_block_6.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/canvas_block_6.json"
+        ]
+      }
+    },
+    {
+      "name": "CanvasBlock7",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canvas_block_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/item/canvas_block_7.json",
+          "src/main/java/net/mcreator/outerendwilds/block/entity/CanvasBlock7BlockEntity.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/canvas_block_7.json",
+          "src/main/java/net/mcreator/outerendwilds/block/CanvasBlock7Block.java",
+          "src/main/resources/assets/outer_end_wilds/blockstates/canvas_block_7.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/canvas_block_7.json"
+        ]
+      }
+    },
+    {
+      "name": "CanvasBlockStorage",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canvas_block_storage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/world/inventory/CanvasBlockStorageMenu.java",
+          "src/main/java/net/mcreator/outerendwilds/client/gui/CanvasBlockStorageScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "CutCanvas5",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_canvas_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_canvas_5.json"
+        ]
+      }
+    },
+    {
+      "name": "CutCanvas6",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_canvas_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_canvas_6.json"
+        ]
+      }
+    },
+    {
+      "name": "CutCanvas7",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_canvas_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_canvas_7.json"
+        ]
+      }
+    },
+    {
+      "name": "CanvasBlock8",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canvas_block_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/CanvasBlock8Block.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/canvas_block_8.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/canvas_block_8.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/canvas_block_8.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/canvas_block_8.json"
+        ]
+      }
+    },
+    {
+      "name": "CutCanvas8",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_canvas_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_canvas_8.json"
+        ]
+      }
+    },
+    {
+      "name": "Islands",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "islands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/neoforge/biome_modifier/islands_biome_modifier.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/configured_feature/islands.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/placed_feature/islands.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "CraftNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/craft_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "EndStonePillar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_pillar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/EndStonePillarBlock.java",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_stone_pillar.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/end_stone_pillar.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_stone_pillar.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_stone_pillar.json"
+        ]
+      }
+    },
+    {
+      "name": "EndStoneLamp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/end_stone_lamp.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/end_stone_lamp.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/end_stone_lamp.json",
+          "src/main/resources/assets/outer_end_wilds/models/block/end_stone_lamp.json",
+          "src/main/java/net/mcreator/outerendwilds/block/EndStoneLampBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Lit",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/lit_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "EndStoneLampRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_lamp_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/EndStoneLampRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrippedWildLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_wild_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/outer_end_wilds/models/block/stripped_wild_log.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/stripped_wild_log.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/stripped_wild_log.json",
+          "src/main/java/net/mcreator/outerendwilds/block/StrippedWildLogBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/stripped_wild_log.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedWildWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_wild_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/block/StrippedWildWoodBlock.java",
+          "src/main/resources/assets/outer_end_wilds/models/block/stripped_wild_wood.json",
+          "src/main/resources/data/outer_end_wilds/loot_table/blocks/stripped_wild_wood.json",
+          "src/main/resources/assets/outer_end_wilds/blockstates/stripped_wild_wood.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/stripped_wild_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "Strip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/StripProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderiteSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/item/EnderiteSmithingTemplateItem.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/enderite_smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "EndCastle",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_castle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/loot_table/chests/endcastle.json"
+        ]
+      }
+    },
+    {
+      "name": "EndWildsCastle",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_wilds_castle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/worldgen/structure_set/end_wilds_castle.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/structure/end_wilds_castle.json",
+          "src/main/resources/data/outer_end_wilds/worldgen/template_pool/end_wilds_castle.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiteSetBonus",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_set_bonus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/potion/EnderiteSetBonusMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Enderite",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/item/EnderiteItem.java",
+          "src/main/resources/assets/outer_end_wilds/models/item/enderite_boots.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/enderite_chestplate.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/enderite_helmet.json",
+          "src/main/resources/assets/outer_end_wilds/models/item/enderite_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "TheLastChallenge",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_last_challenge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/advancement/the_last_challenge.json"
+        ]
+      }
+    },
+    {
+      "name": "SetBonus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_bonus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/outerendwilds/procedures/SetBonusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmithEnderite1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_enderite_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/smith_enderite_1.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithEnderite2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_enderite_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/smith_enderite_2.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithEnderite3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_enderite_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/smith_enderite_3.json"
+        ]
+      }
+    },
+    {
+      "name": "SmithEnderite4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smith_enderite_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/smith_enderite_4.json"
+        ]
+      }
+    },
+    {
+      "name": "TheLastReward",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_last_reward",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/advancement/the_last_reward.json"
+        ]
+      }
+    },
+    {
+      "name": "DupeEnderiteTemplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dupe_enderite_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/dupe_enderite_template.json"
+        ]
+      }
+    },
+    {
+      "name": "CutEndstone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_endstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/outer_end_wilds/recipe/cut_endstone.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "snarelinghurt",
+      "files": [
+        "snareling_hurt"
+      ],
+      "category": "hostile",
+      "subtitle": "Snareling Hurt"
+    },
+    {
+      "name": "snarelingdie",
+      "files": [
+        "snareling_death"
+      ],
+      "category": "hostile",
+      "subtitle": "Snareling Dies"
+    },
+    {
+      "name": "snarelingidle",
+      "files": [
+        "snareling_idle"
+      ],
+      "category": "hostile",
+      "subtitle": "Snareling Warbles"
+    },
+    {
+      "name": "snareling_teleport",
+      "files": [
+        "d6_sfx_mob_snarelingstun-001"
+      ],
+      "category": "hostile",
+      "subtitle": "Snareling Teleports"
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:mod:endbiome": [
+      "CUSTOM:EndWilds"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:EnderiteBlock"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Acid"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Enderite.body"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:CanvasBlock8",
+      "~CUSTOM:CanvasBlock7",
+      "~CUSTOM:CanvasBlock6",
+      "~CUSTOM:CanvasBlock5",
+      "~CUSTOM:CanvasBlock4",
+      "~CUSTOM:CanvasBlock3",
+      "~CUSTOM:CanvasBlock2",
+      "~CUSTOM:CanvasBlock1",
+      "~CUSTOM:CanvasBlock",
+      "~CUSTOM:WildLeaves"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:WildWood",
+      "CUSTOM:WildLog"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:EndWilds"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:WildLeaves"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:StrippedWildWood",
+      "~CUSTOM:StrippedWildLog",
+      "~CUSTOM:WildWood",
+      "~CUSTOM:WildButton",
+      "~CUSTOM:WildPressurePlate",
+      "~CUSTOM:WildFenceGate",
+      "~CUSTOM:WildFence",
+      "~CUSTOM:WildSlab",
+      "~CUSTOM:WildStairs",
+      "~CUSTOM:WildPlanks",
+      "~CUSTOM:WildLog"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:CanvasBlock3",
+      "~CUSTOM:CobbledEndSlateSlab",
+      "~CUSTOM:PolishedEndSlateSlab",
+      "~CUSTOM:EndSlateTileSlab",
+      "~CUSTOM:EndSlateBrickSlab",
+      "~CUSTOM:WildSlab"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EndStoneLamp",
+      "~CUSTOM:EndStonePillar",
+      "~CUSTOM:CobbledEndSlateWall",
+      "~CUSTOM:CobbledEndSlateStairs",
+      "~CUSTOM:CobbledEndSlateSlab",
+      "~CUSTOM:CobbledEndSlate",
+      "~CUSTOM:PolishedEndSlateWall",
+      "~CUSTOM:PolishedEndSlateStairs",
+      "~CUSTOM:PolishedEndSlateSlab",
+      "~CUSTOM:PolishedEndSlate",
+      "~CUSTOM:EndSlateTileWall",
+      "~CUSTOM:EndSlateTileStairs",
+      "~CUSTOM:EndSlateTileSlab",
+      "~CUSTOM:EndSlateTiles",
+      "~CUSTOM:EndSlateBrickWall",
+      "~CUSTOM:EndSlateBrickStairs",
+      "~CUSTOM:EndSlateBrickSlab",
+      "~CUSTOM:EndSlateBricks",
+      "~CUSTOM:EnderiteBlock",
+      "~CUSTOM:EndSlate",
+      "~CUSTOM:EndRodBlock",
+      "~CUSTOM:WildNylium"
+    ],
+    "ITEMS:mod:breaksenderite": [
+      "Items.NETHERITE_PICKAXE"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:WildFence"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:CobbledEndSlateWall",
+      "~CUSTOM:PolishedEndSlateWall",
+      "~CUSTOM:EndSlateTileWall",
+      "~CUSTOM:EndSlateBrickWall"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:CobbledEndSlateStairs",
+      "~CUSTOM:PolishedEndSlateStairs",
+      "~CUSTOM:EndSlateTileStairs",
+      "~CUSTOM:EndSlateBrickStairs",
+      "~CUSTOM:WildStairs"
+    ],
+    "ITEMS:mod:slate": [
+      "CUSTOM:EndSlate",
+      "CUSTOM:EndSlateBricks",
+      "CUSTOM:EndSlateBrickSlab",
+      "CUSTOM:EndSlateBrickStairs",
+      "CUSTOM:EndSlateBrickWall",
+      "CUSTOM:EndSlateTiles",
+      "CUSTOM:EndSlateTileSlab",
+      "CUSTOM:EndSlateTileStairs",
+      "CUSTOM:EndSlateTileWall",
+      "CUSTOM:PolishedEndSlate",
+      "CUSTOM:PolishedEndSlateSlab",
+      "CUSTOM:PolishedEndSlateStairs",
+      "CUSTOM:PolishedEndSlateWall",
+      "CUSTOM:CobbledEndSlate",
+      "CUSTOM:CobbledEndSlateSlab",
+      "CUSTOM:CobbledEndSlateStairs",
+      "CUSTOM:CobbledEndSlateWall"
+    ],
+    "ITEMS:mod:canvas": [
+      "CUSTOM:CanvasBlock",
+      "CUSTOM:CanvasBlock1",
+      "CUSTOM:CanvasBlock2"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Enderite.helmet"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:Enderite.boots"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:WildPlanks"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Enderite.legs"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:OuterEndWilds": [
+      "Snareling",
+      "SnarelingGoop",
+      "Acid",
+      "EndStonePillar",
+      "EndStoneLamp",
+      "CanvasBlock",
+      "EnderiteSmithingTemplate",
+      "EnderiteBlock",
+      "EnderiteIngot",
+      "EnderiteNugget",
+      "Enderite",
+      "EndRodBlock",
+      "WildNylium",
+      "WildRoot",
+      "TwistFlower",
+      "TwistPetals",
+      "WildLeaves",
+      "WildLog",
+      "WildWood",
+      "StrippedWildLog",
+      "StrippedWildWood",
+      "WildPlanks",
+      "WildStairs",
+      "WildSlab",
+      "WildFence",
+      "WildFenceGate",
+      "WildPressurePlate",
+      "WildButton",
+      "EndSlate",
+      "EndSlateBricks",
+      "EndSlateBrickSlab",
+      "EndSlateBrickStairs",
+      "EndSlateBrickWall",
+      "EndSlateTiles",
+      "EndSlateTileSlab",
+      "EndSlateTileStairs",
+      "EndSlateTileWall",
+      "PolishedEndSlate",
+      "PolishedEndSlateSlab",
+      "PolishedEndSlateStairs",
+      "PolishedEndSlateWall",
+      "CobbledEndSlate",
+      "CobbledEndSlateSlab",
+      "CobbledEndSlateStairs",
+      "CobbledEndSlateWall",
+      "ObsidianClaymore"
+    ],
+    "CUSTOM:CanvasBlocks": [
+      "CanvasBlock",
+      "CanvasBlock1",
+      "CanvasBlock3",
+      "CanvasBlock2",
+      "CanvasBlock4",
+      "CanvasBlock5",
+      "CanvasBlock6",
+      "CanvasBlock7",
+      "CanvasBlock8"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "effect.outer_end_wilds.ensnared": "Ensnared",
+      "block.outer_end_wilds.end_slate_bricks": "End Slate Bricks",
+      "block.outer_end_wilds.canvas_block": "Canvas Block",
+      "advancements.the_last_reward.descr": "Obtain the Canvas Block",
+      "block.outer_end_wilds.acid": "Acid",
+      "block.outer_end_wilds.wild_fence_gate": "Wild Fence Gate",
+      "block.outer_end_wilds.stripped_wild_wood": "Stripped Wild Wood",
+      "item.outer_end_wilds.enderite_nugget": "Enderite Nugget",
+      "block.outer_end_wilds.wild_fence": "Wild Fence",
+      "fluid.outer_end_wilds.acid": "Acid",
+      "item.outer_end_wilds.obsidian_claymore": "Obsidian Claymore",
+      "item.outer_end_wilds.snareling_spawn_egg": "Snareling Spawn Egg",
+      "item.outer_end_wilds.enderite_boots": "Enderite Boots",
+      "advancements.the_last_challenge.descr": "Wear a Full Set of Enderite Armor",
+      "block.outer_end_wilds.wild_wood": "Wild Wood",
+      "block.outer_end_wilds.canvas_block_1.description_0": "  §8Terraria Grass Block",
+      "item_group.outer_end_wilds.canvas_blocks": "Canvas Blocks",
+      "block.outer_end_wilds.canvas_block_6.description_0": "  §8Mario Brick Block",
+      "advancements.recolored_deepslate.title": "Recolored Deepslate",
+      "item.outer_end_wilds.enderite_ingot": "Enderite Ingot",
+      "block.outer_end_wilds.polished_end_slate_wall": "Polished End Slate Wall",
+      "block.outer_end_wilds.wild_nylium": "Wild Nylium",
+      "block.outer_end_wilds.wild_slab": "Wild Slab",
+      "block.outer_end_wilds.stripped_wild_log": "Stripped Wild Log",
+      "block.outer_end_wilds.wild_planks": "Wild Planks",
+      "block.outer_end_wilds.wild_log": "Wild Log",
+      "block.outer_end_wilds.end_rod_block": "End Rod Block",
+      "block.outer_end_wilds.end_stone_lamp": "End Stone Lamp",
+      "block.outer_end_wilds.canvas_block_4.description_0": "  §8Terraria Stone Block",
+      "item.outer_end_wilds.enderite_chestplate": "Enderite Chestplate",
+      "block.outer_end_wilds.end_slate_tile_stairs": "End Slate Tile Stairs",
+      "advancements.titledrop.descr": "The beginning of The End",
+      "item.outer_end_wilds.snareling_goop": "Snareling Goop",
+      "block.outer_end_wilds.end_slate_tile_wall": "End Slate Tile Wall",
+      "item_group.outer_end_wilds.outer_end_wilds": "Outer End Wilds",
+      "block.outer_end_wilds.end_slate_tiles": "End Slate Tiles",
+      "block.outer_end_wilds.twist_flower": "Twist Flower",
+      "entity.outer_end_wilds.snareling": "Snareling",
+      "block.outer_end_wilds.polished_end_slate": "Polished End Slate",
+      "block.outer_end_wilds.enderite_block": "Enderite Block",
+      "block.outer_end_wilds.canvas_block_3.description_0": "  §8Terraria Grass Slab",
+      "block.outer_end_wilds.cobbled_end_slate_slab": "Cobbled End Slate Slab",
+      "item.outer_end_wilds.twist_petals": "Twist Petals",
+      "advancements.the_last_reward.title": "Intrinsic",
+      "advancements.the_last_challenge.title": "Extrinsic",
+      "block.outer_end_wilds.wild_leaves": "Wild Leaves",
+      "block.outer_end_wilds.end_slate_brick_wall": "End Slate Brick Wall",
+      "block.outer_end_wilds.wild_button": "Wild Button",
+      "block.outer_end_wilds.cobbled_end_slate_wall": "Cobbled End Slate Wall",
+      "block.outer_end_wilds.polished_end_slate_stairs": "Polished End Slate Stairs",
+      "effect.outer_end_wilds.enderite_set_bonus": "Enderite Set Bonus",
+      "death.attack.acid_burn.item": "%1$s dissolved",
+      "block.outer_end_wilds.canvas_block_7.description_0": "  §8Mario ? Block",
+      "block.outer_end_wilds.wild_pressure_plate": "Wild Pressure Plate",
+      "block.outer_end_wilds.end_slate": "End Slate",
+      "death.attack.acid_burn": "%1$s dissolved",
+      "block.outer_end_wilds.end_stone_pillar": "End Stone Pillar",
+      "block.outer_end_wilds.canvas_block_2.description_0": "  §8Terraria Dirt Block",
+      "death.attack.acid_burn.player": "%1$s dissolved whilst trying to escape %2$s",
+      "block.outer_end_wilds.canvas_block.description_0": "  §8Blank",
+      "block.outer_end_wilds.canvas_block_5.description_0": "  §8Mario Ground Block",
+      "block.outer_end_wilds.polished_end_slate_slab": "Polished End Slate Slab",
+      "block.outer_end_wilds.cobbled_end_slate": "Cobbled End Slate",
+      "block.outer_end_wilds.cobbled_end_slate_stairs": "Cobbled End Slate Stairs",
+      "subtitles.snarelinghurt": "Snareling Hurt",
+      "advancements.end_wilds_adv.title": "Juandice Grass",
+      "subtitles.snarelingdie": "Snareling Dies",
+      "item.outer_end_wilds.acid_bucket": "Acid Bucket",
+      "block.outer_end_wilds.end_slate_brick_slab": "End Slate Brick Slab",
+      "subtitles.snareling_teleport": "Snareling Teleports",
+      "item.outer_end_wilds.enderite_leggings": "Enderite Leggings",
+      "item.outer_end_wilds.enderite_smithing_template": "Smithing Template",
+      "block.outer_end_wilds.end_slate_brick_stairs": "End Slate Brick Slab",
+      "item.outer_end_wilds.enderite_helmet": "Enderite Helmet",
+      "advancements.titledrop.title": "Outer End Wilds",
+      "biome.outer_end_wilds.end_wilds": "End Wilds",
+      "block.outer_end_wilds.canvas_block_2": "Canvas Block",
+      "block.outer_end_wilds.canvas_block_1": "Canvas Block",
+      "subtitles.snarelingidle": "Snareling Warbles",
+      "advancements.end_wilds_adv.descr": "Hey it\u0027s that place from Minecraft Dungeons :0",
+      "item.outer_end_wilds.enderite_smithing_template.description_0": "§7Enderite Upgrade",
+      "item.outer_end_wilds.enderite_smithing_template.description_1": "",
+      "item.outer_end_wilds.enderite_smithing_template.description_2": "§7Applies to:",
+      "item.outer_end_wilds.enderite_smithing_template.description_3": " §9Netherite Equipment",
+      "item.outer_end_wilds.enderite_smithing_template.description_4": "§7Ingredients:",
+      "item.outer_end_wilds.enderite_smithing_template.description_5": " §9Enderite Ingot",
+      "block.outer_end_wilds.end_slate_tile_slab": "End Slate Tile Slab",
+      "block.outer_end_wilds.canvas_block_8": "Canvas Block",
+      "block.outer_end_wilds.wild_root": "Wild Root",
+      "block.outer_end_wilds.canvas_block_7": "Canvas Block",
+      "block.outer_end_wilds.canvas_block_6": "Canvas Block",
+      "advancements.recolored_deepslate.descr": "Mine End Slate, the End counterpart to deepslate. You can only turn it into decorative blocks with a stonecutter.",
+      "block.outer_end_wilds.canvas_block_5": "Canvas Block",
+      "block.outer_end_wilds.canvas_block_4": "Canvas Block",
+      "block.outer_end_wilds.canvas_block_3": "Canvas Block",
+      "block.outer_end_wilds.wild_stairs": "Wild Stairs",
+      "gui.outer_end_wilds.canvas_block_storage.label_canvas_block": "Canvas Block",
+      "block.outer_end_wilds.canvas_block_8.description_0": "  §8End Sky"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "outer_end_wilds",
+    "modName": "Outer End Wilds",
+    "version": "1.0.0",
+    "description": "Adds a new End Biome, Armor Set, and More!",
+    "author": "ImMaxon",
+    "websiteURL": "https://modrinth.com/user/ImMaxon",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "minecraft_title",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Made with MCreator, and the End Wilds Castle was made with The Mighty Architect mod",
+    "modElementsPackage": "net.mcreator.outerendwilds"
+  },
+  "mcreatorVersion": 202400452410
+}

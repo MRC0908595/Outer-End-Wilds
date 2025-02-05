@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "outer_end_wilds:wild_wood"
+    }
+  },
+  "result": {
+    "id": "outer_end_wilds:wild_planks",
+    "count": 4
+  }
+}

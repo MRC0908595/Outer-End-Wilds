@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "outer_end_wilds:block/cutbottom",
+    "bottom": "outer_end_wilds:block/cutbottom",
+    "top": "outer_end_wilds:block/cuttop",
+    "side": "outer_end_wilds:block/cut"
+  },
+  "render_type": "solid"
+}

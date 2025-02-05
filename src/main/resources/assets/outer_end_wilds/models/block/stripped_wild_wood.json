@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outer_end_wilds:block/strippedendlog",
+    "particle": "outer_end_wilds:block/strippedendlog"
+  },
+  "render_type": "solid"
+}

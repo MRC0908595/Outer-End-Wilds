@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT License"
+
+[[mods]]
+modId="outer_end_wilds"
+version="1.0.1"
+displayName="Outer End Wilds"
+displayURL="https://modrinth.com/user/ImMaxon"
+logoFile="logo.png"
+credits="Made with MCreator, and the End Wilds Castle was made with The Mighty Architect mod"
+authors="ImMaxon"
+description="Adds a new End Biome, Armor Set, and More!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.outer_end_wilds]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.65,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.outer_end_wilds]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="AFTER"
+side="BOTH"
+
+
+
+
+[[mixins]]
+    config="mixins.outer_end_wilds.json"
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

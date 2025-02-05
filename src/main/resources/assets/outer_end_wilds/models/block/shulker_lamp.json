@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outer_end_wilds:block/shulkerlight",
+    "particle": "outer_end_wilds:block/shulkerlight"
+  },
+  "render_type": "cutout_mipped"
+}

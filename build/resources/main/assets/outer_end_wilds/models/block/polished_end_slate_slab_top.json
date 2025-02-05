@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "outer_end_wilds:block/polishedslate",
+    "bottom": "outer_end_wilds:block/polishedslate",
+    "top": "outer_end_wilds:block/polishedslate",
+    "side": "outer_end_wilds:block/polishedslate"
+  },
+  "render_type": "solid"
+}

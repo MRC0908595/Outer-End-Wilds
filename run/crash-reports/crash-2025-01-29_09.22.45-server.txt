@@ -1,0 +1,135 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2025-01-29 09:22:45
+Description: Saving entity NBT
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.core.BlockPos.getX()" because "this.blockPos" is null
+	at TRANSFORMER/end_respawn_anchor@2.0.0/com.github.mikn.end_respawn_anchor.data_attachment.RespawnData.serializeNBT(RespawnData.java:68) ~[EndRespawnAnchorMod.jar%23187!/:?] {re:mixin,re:classloading}
+	at TRANSFORMER/end_respawn_anchor@2.0.0/com.github.mikn.end_respawn_anchor.data_attachment.RespawnData.serializeNBT(RespawnData.java:34) ~[EndRespawnAnchorMod.jar%23187!/:?] {re:mixin,re:classloading}
+	at TRANSFORMER/neoforge@21.1.65/net.neoforged.neoforge.attachment.AttachmentType$1.write(AttachmentType.java:143) ~[neoforge-21.1.65-minecraft.jar%23186!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.65/net.neoforged.neoforge.attachment.AttachmentType$1.write(AttachmentType.java:132) ~[neoforge-21.1.65-minecraft.jar%23186!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.65/net.neoforged.neoforge.attachment.AttachmentHolder.serializeAttachments(AttachmentHolder.java:125) ~[neoforge-21.1.65-minecraft.jar%23186!/:?] {re:classloading,re:mixin}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.Entity.saveWithoutId(Entity.java:1719) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedPlayerList.save(IntegratedPlayerList.java:29) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.players.PlayerList.remove(PlayerList.java:362) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:1214) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,re:classloading,pl:mixin:APP:worldedit-neoforge.mixins.json:MixinServerGamePacketListenerImpl from mod worldedit,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:1203) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,re:classloading,pl:mixin:APP:worldedit-neoforge.mixins.json:MixinServerGamePacketListenerImpl from mod worldedit,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.handleDisconnection(Connection.java:643) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:172) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1051) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:917) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:110) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at TRANSFORMER/end_respawn_anchor@2.0.0/com.github.mikn.end_respawn_anchor.data_attachment.RespawnData.serializeNBT(RespawnData.java:68) ~[EndRespawnAnchorMod.jar%23187!/:?] {re:mixin,re:classloading}
+	at TRANSFORMER/end_respawn_anchor@2.0.0/com.github.mikn.end_respawn_anchor.data_attachment.RespawnData.serializeNBT(RespawnData.java:34) ~[EndRespawnAnchorMod.jar%23187!/:?] {re:mixin,re:classloading}
+	at TRANSFORMER/neoforge@21.1.65/net.neoforged.neoforge.attachment.AttachmentType$1.write(AttachmentType.java:143) ~[neoforge-21.1.65-minecraft.jar%23186!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.65/net.neoforged.neoforge.attachment.AttachmentType$1.write(AttachmentType.java:132) ~[neoforge-21.1.65-minecraft.jar%23186!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.65/net.neoforged.neoforge.attachment.AttachmentHolder.serializeAttachments(AttachmentHolder.java:125) ~[neoforge-21.1.65-minecraft.jar%23186!/:?] {re:classloading,re:mixin}
+-- Entity being saved --
+Details:
+	Entity Type: minecraft:player (net.minecraft.server.level.ServerPlayer)
+	Entity ID: 4
+	Entity Name: Dev
+	Entity's Exact location: 824.85, -310.77, 602.68
+	Entity's Block location: World: (824,-311,602), Section: (at 8,9,10 in 51,-20,37; chunk contains blocks 816,0,592 to 831,255,607), Region: (1,1; contains chunks 32,32 to 63,63, blocks 512,0,512 to 1023,255,1023)
+	Entity's Momentum: 0.00, -3.75, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.Entity.saveWithoutId(Entity.java:1719) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedPlayerList.save(IntegratedPlayerList.java:29) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.players.PlayerList.remove(PlayerList.java:362) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:1214) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,re:classloading,pl:mixin:APP:worldedit-neoforge.mixins.json:MixinServerGamePacketListenerImpl from mod worldedit,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:1203) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,re:classloading,pl:mixin:APP:worldedit-neoforge.mixins.json:MixinServerGamePacketListenerImpl from mod worldedit,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.Connection.handleDisconnection(Connection.java:643) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:172) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1051) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:917) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:110) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[neoforge-21.1.65-minecraft.jar%23185!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 21.0.4, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 316553840 bytes (301 MiB) / 1786773504 bytes (1704 MiB) up to 4286578688 bytes (4088 MiB)
+	CPUs: 6
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 10
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 6
+	Graphics card #0 name: NVIDIA GeForce RTX 2060 SUPER
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 8192.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.6636
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.13
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 20056.55
+	Virtual memory used (MiB): 12068.91
+	Swap memory total (MiB): 3712.00
+	Swap memory used (MiB): 75.56
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 478223.75, total: 952685.25
+	Space in storage for workdir (MiB): available: 478223.75, total: 952685.25
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 0 / 8; []
+	Active Data Packs: vanilla, mod_data, mod/worldedit (incompatible), mod/end_respawn_anchor (incompatible), mod/neoforge, mod/outer_end_wilds
+	Available Data Packs: bundle, trade_rebalance, vanilla, mod/end_respawn_anchor (incompatible), mod/neoforge, mod/outer_end_wilds, mod/worldedit (incompatible), mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -2890847058875802688
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'neoforge'; Server brand changed to 'neoforge'
+	Launched Version: 21.1.65
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.24.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.24.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.24.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.65-minecraft.jar                    |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		worldedit-mod-7.3.5.jar                           |WorldEdit                     |worldedit                     |7.3.5+6880-8ba3d89  |Manifest: NOSIGNATURE
+		EndRespawnAnchorMod.jar                           |EndRespawnAnchor              |end_respawn_anchor            |2.0.0               |Manifest: NOSIGNATURE
+		neoforge-21.1.65-minecraft.jar                    |NeoForge                      |neoforge                      |21.1.65             |Manifest: NOSIGNATURE
+		main                                              |Outer End Wilds               |outer_end_wilds               |1.0.0               |Manifest: NOSIGNATURE
+	Crash Report UUID: 378a23b1-97d2-493b-b960-b31ee614dda3
+	FML: 4.0.24
+	NeoForge: 21.1.65

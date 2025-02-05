@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "outer_end_wilds:end_wilds_castle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 27,
+    "separation": 20,
+    "salt": 354765931
+  }
+}

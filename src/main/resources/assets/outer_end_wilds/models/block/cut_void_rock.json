@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "outer_end_wilds:block/cutbottom",
+    "up": "outer_end_wilds:block/cuttop",
+    "north": "outer_end_wilds:block/cut",
+    "east": "outer_end_wilds:block/cut",
+    "south": "outer_end_wilds:block/cut",
+    "west": "outer_end_wilds:block/cut",
+    "particle": "outer_end_wilds:block/cutbottom"
+  },
+  "render_type": "solid"
+}

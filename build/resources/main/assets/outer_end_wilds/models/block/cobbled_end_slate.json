@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outer_end_wilds:block/cobbledslate",
+    "particle": "outer_end_wilds:block/cobbledslate"
+  },
+  "render_type": "solid"
+}

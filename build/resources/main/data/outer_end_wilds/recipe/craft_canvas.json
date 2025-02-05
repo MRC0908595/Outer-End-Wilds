@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "outer_end_wilds:twist_petals"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "outer_end_wilds:twist_petals"
+    },
+    {
+      "item": "outer_end_wilds:enderite_nugget"
+    },
+    {
+      "item": "outer_end_wilds:twist_petals"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "outer_end_wilds:twist_petals"
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "result": {
+    "id": "outer_end_wilds:canvas_block",
+    "count": 16
+  }
+}

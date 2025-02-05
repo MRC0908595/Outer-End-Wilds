@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:SnarelingGoop"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:snareling_teleport"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 2.0,
+    "knockback": 1,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsEntity": {
+      "name": "GoopProjectileProjectileHitsLivingEntity"
+    }
+  }
+}

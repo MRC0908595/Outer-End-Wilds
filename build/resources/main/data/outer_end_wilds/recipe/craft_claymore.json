@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:obsidian"
+    },
+    "b": {
+      "item": "outer_end_wilds:enderite_ingot"
+    },
+    "c": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "id": "outer_end_wilds:obsidian_claymore",
+    "count": 1
+  }
+}

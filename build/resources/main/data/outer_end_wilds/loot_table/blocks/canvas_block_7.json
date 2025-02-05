@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "outer_end_wilds:blocks/canvas_block_7",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "outer_end_wilds:canvas_block_7"
+        }
+      ]
+    }
+  ]
+}

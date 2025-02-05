@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "outer_end_wilds:block/slatetiles",
+    "bottom": "outer_end_wilds:block/slatetiles",
+    "top": "outer_end_wilds:block/slatetiles",
+    "side": "outer_end_wilds:block/slatetiles"
+  },
+  "render_type": "solid"
+}

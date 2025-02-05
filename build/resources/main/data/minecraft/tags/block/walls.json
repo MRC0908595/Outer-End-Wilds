@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "outer_end_wilds:cobbled_end_slate_wall",
+    "outer_end_wilds:polished_end_slate_wall",
+    "outer_end_wilds:end_slate_tile_wall",
+    "outer_end_wilds:end_slate_brick_wall"
+  ]
+}

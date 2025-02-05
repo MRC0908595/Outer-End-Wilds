@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "outer_end_wilds:block/cobbled_end_slate_slab"
+    },
+    "type=top": {
+      "model": "outer_end_wilds:block/cobbled_end_slate_slab_top"
+    },
+    "type=double": {
+      "model": "outer_end_wilds:block/cobbled_end_slate_slab_full"
+    }
+  }
+}

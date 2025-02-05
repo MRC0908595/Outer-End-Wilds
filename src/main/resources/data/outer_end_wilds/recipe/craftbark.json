@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "outer_end_wilds:wild_log"
+    }
+  },
+  "result": {
+    "id": "outer_end_wilds:wild_wood",
+    "count": 3
+  }
+}

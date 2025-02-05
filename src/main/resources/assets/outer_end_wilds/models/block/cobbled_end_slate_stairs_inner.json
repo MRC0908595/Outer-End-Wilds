@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "outer_end_wilds:block/cobbledslate",
+    "bottom": "outer_end_wilds:block/cobbledslate",
+    "top": "outer_end_wilds:block/cobbledslate",
+    "side": "outer_end_wilds:block/cobbledslate"
+  },
+  "render_type": "solid"
+}

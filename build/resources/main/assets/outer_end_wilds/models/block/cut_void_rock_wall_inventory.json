@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "outer_end_wilds:block/cut",
+    "particle": "outer_end_wilds:block/cut"
+  },
+  "render_type": "solid"
+}

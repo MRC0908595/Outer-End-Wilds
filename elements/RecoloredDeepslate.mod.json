@@ -1,0 +1,41 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Recolored Deepslate",
+    "achievementDescription": "Mine End Slate, the End counterpart to deepslate. You can only turn it into decorative blocks with a stonecutter.",
+    "achievementIcon": {
+      "value": "CUSTOM:EndSlate"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "Cut1",
+      "Cut",
+      "Cut3",
+      "Cut4",
+      "Cut5",
+      "Cut6",
+      "Cut7",
+      "Cut8",
+      "Cut9",
+      "Cut10",
+      "Cut11",
+      "Cut12",
+      "Cut13",
+      "Cut14",
+      "Cut15",
+      "Cut16"
+    ],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:EndWildsAdv"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">9999999999999</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:EndSlate</field></block></value></block></next></block></xml>"
+  }
+}

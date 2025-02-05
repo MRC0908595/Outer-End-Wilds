@@ -1,0 +1,29 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Outer End Wilds",
+    "achievementDescription": "The beginning of The End",
+    "achievementIcon": {
+      "value": "CUSTOM:EndRodBlock"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "PackRod",
+      "CutEndstone",
+      "CraftEndStoneLamp",
+      "UnpackEndrods"
+    ],
+    "rewardXP": 0,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "end/enter_end_gateway"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"95\" y=\"114\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "outer_end_wilds:structure_feature",
+          "config": {
+            "structure": "outer_end_wilds:island1",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "outer_end_wilds:structure_feature",
+          "config": {
+            "structure": "outer_end_wilds:island2",
+            "ignored_blocks": "minecraft:air"
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

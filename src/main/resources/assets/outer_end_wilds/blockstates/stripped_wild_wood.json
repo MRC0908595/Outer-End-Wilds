@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "outer_end_wilds:block/stripped_wild_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "outer_end_wilds:block/stripped_wild_wood"
+    },
+    "axis=z": {
+      "model": "outer_end_wilds:block/stripped_wild_wood",
+      "x": 90
+    }
+  }
+}

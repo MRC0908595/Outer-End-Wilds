@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "outer_end_wilds:block/endlog",
+    "up": "outer_end_wilds:block/endlog",
+    "north": "outer_end_wilds:block/endlog",
+    "east": "outer_end_wilds:block/endlog",
+    "south": "outer_end_wilds:block/endlog",
+    "west": "outer_end_wilds:block/endlog",
+    "particle": "outer_end_wilds:block/endlog"
+  },
+  "render_type": "solid"
+}

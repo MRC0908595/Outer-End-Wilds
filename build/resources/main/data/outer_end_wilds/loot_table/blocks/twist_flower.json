@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "outer_end_wilds:blocks/twist_flower",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "outer_end_wilds:twist_flower",
+          "conditions": [
+            {
+              "block": "outer_end_wilds:twist_flower",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "outer_end_wilds:end_wilds",
+  "features": "outer_end_wilds:islands",
+  "step": "surface_structures"
+}

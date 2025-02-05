@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "outer_end_wilds:block/top",
+    "up": "outer_end_wilds:block/top",
+    "north": "outer_end_wilds:block/side",
+    "east": "outer_end_wilds:block/side",
+    "south": "outer_end_wilds:block/side",
+    "west": "outer_end_wilds:block/side",
+    "particle": "outer_end_wilds:block/top"
+  },
+  "render_type": "cutout_mipped"
+}

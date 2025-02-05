@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "outer_end_wilds:enderite_block"
+  },
+  "result": {
+    "id": "outer_end_wilds:enderite_ingot"
+  }
+}

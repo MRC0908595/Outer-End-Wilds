@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "outer_end_wilds:block/end_stone_lamp"
+    },
+    "blockstate=1": {
+      "model": "outer_end_wilds:block/lit_blockstate_0"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "outer_end_wilds:block/bricks",
+    "bottom": "outer_end_wilds:block/bricks",
+    "top": "outer_end_wilds:block/bricks",
+    "side": "outer_end_wilds:block/bricks"
+  },
+  "render_type": "solid"
+}

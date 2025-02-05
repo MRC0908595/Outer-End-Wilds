@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "outer_end_wilds:block/endplanks",
+    "bottom": "outer_end_wilds:block/endplanks",
+    "top": "outer_end_wilds:block/endplanks",
+    "side": "outer_end_wilds:block/endplanks"
+  },
+  "render_type": "solid"
+}

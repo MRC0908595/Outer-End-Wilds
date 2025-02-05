@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "outer_end_wilds:slate"
+  },
+  "result": {
+    "id": "outer_end_wilds:cobbled_end_slate",
+    "count": 1
+  }
+}

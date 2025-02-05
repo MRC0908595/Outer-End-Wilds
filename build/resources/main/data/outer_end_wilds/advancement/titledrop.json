@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "outer_end_wilds:end_rod_block"
+    },
+    "title": {
+      "translate": "advancements.titledrop.title"
+    },
+    "description": {
+      "translate": "advancements.titledrop.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "titledrop_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "outer_end_wilds:pack_rod",
+      "outer_end_wilds:cut_endstone",
+      "outer_end_wilds:craft_end_stone_lamp",
+      "outer_end_wilds:unpack_endrods"
+    ]
+  },
+  "parent": "minecraft:end/enter_end_gateway"
+}

@@ -1,0 +1,44 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Juandice Grass",
+    "achievementDescription": "Hey it's that place from Minecraft Dungeons :0",
+    "achievementIcon": {
+      "value": "CUSTOM:WildNylium"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "WildPlanksLogRecipe",
+      "WildStairsRecipe",
+      "WildSlabRecipe",
+      "WildFenceRecipe",
+      "WildFenceGateRecipe",
+      "WildPressurePlateRecipe",
+      "WildButtonRecipe",
+      "WildStickRecipe",
+      "Craftbark",
+      "Wildplankswood",
+      "CraftPetals",
+      "SmithEnderite1",
+      "SmithEnderite2",
+      "SmithEnderite3",
+      "SmithEnderite4",
+      "CraftCanvas",
+      "Smelt",
+      "CraftClaymore",
+      "DupeEnderiteTemplate"
+    ],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Titledrop"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:EndWilds</field></block></next></block></xml>"
+  }
+}

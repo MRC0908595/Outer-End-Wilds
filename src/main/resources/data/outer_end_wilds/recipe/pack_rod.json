@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "result": {
+    "id": "outer_end_wilds:end_rod_block",
+    "count": 1
+  }
+}

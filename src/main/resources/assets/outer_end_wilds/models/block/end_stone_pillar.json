@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "outer_end_wilds:block/pillar",
+    "up": "outer_end_wilds:block/pillar",
+    "north": "outer_end_wilds:block/sidepilllar",
+    "east": "outer_end_wilds:block/sidepilllar",
+    "south": "outer_end_wilds:block/sidepilllar",
+    "west": "outer_end_wilds:block/sidepilllar",
+    "particle": "outer_end_wilds:block/pillar"
+  },
+  "render_type": "solid"
+}

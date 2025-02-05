@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "outer_end_wilds:enderite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.the_last_challenge.title"
+    },
+    "description": {
+      "translate": "advancements.the_last_challenge.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_last_challenge_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "outer_end_wilds:end_wilds_adv"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "outer_end_wilds:enderite_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "outer_end_wilds:enderite_ingot"
+  },
+  "result": {
+    "id": "outer_end_wilds:enderite_chestplate"
+  }
+}

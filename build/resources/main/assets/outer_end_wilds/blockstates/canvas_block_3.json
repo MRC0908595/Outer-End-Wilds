@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "outer_end_wilds:block/canvas_block_3"
+    },
+    "type=top": {
+      "model": "outer_end_wilds:block/canvas_block_3_top"
+    },
+    "type=double": {
+      "model": "outer_end_wilds:block/canvas_block_3_full"
+    }
+  }
+}

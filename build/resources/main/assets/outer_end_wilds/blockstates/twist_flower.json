@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "outer_end_wilds:block/twist_flower"
+    },
+    "half=lower": {
+      "model": "outer_end_wilds:block/twist_flower_bottom"
+    }
+  }
+}

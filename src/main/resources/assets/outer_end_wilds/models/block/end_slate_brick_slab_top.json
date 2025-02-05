@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "outer_end_wilds:block/slatebricks",
+    "bottom": "outer_end_wilds:block/slatebricks",
+    "top": "outer_end_wilds:block/slatebricks",
+    "side": "outer_end_wilds:block/slatebricks"
+  },
+  "render_type": "solid"
+}

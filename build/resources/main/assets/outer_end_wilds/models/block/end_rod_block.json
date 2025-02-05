@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outer_end_wilds:block/endrodblock_mcd",
+    "particle": "outer_end_wilds:block/endrodblock_mcd"
+  },
+  "render_type": "solid"
+}

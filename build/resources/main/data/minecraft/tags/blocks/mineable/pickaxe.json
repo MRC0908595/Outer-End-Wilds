@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "outer_end_wilds:shulker_lamp",
+    "outer_end_wilds:cut_void_rock_wall",
+    "outer_end_wilds:cut_void_rock_stairs",
+    "outer_end_wilds:cut_void_rock_slab",
+    "outer_end_wilds:cut_void_rock",
+    "outer_end_wilds:void_rock_brick_wall",
+    "outer_end_wilds:void_rock_brick_stairs",
+    "outer_end_wilds:void_rock_brick_slab",
+    "outer_end_wilds:void_rock_bricks",
+    "outer_end_wilds:arc_stone",
+    "outer_end_wilds:void_rock",
+    "outer_end_wilds:end_stone_pillar",
+    "outer_end_wilds:wild_nylium"
+  ]
+}

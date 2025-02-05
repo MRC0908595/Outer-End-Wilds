@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "outer_end_wilds:end_slate"
+    },
+    "c": {
+      "item": "outer_end_wilds:enderite_smithing_template"
+    }
+  },
+  "result": {
+    "id": "outer_end_wilds:enderite_smithing_template",
+    "count": 2
+  }
+}

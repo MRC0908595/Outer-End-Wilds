@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "outer_end_wilds:end_wilds",
+  "features": "outer_end_wilds:wild_tree_3",
+  "step": "surface_structures"
+}

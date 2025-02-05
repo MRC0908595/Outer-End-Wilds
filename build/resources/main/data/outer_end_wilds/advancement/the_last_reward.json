@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "outer_end_wilds:canvas_block"
+    },
+    "title": {
+      "translate": "advancements.the_last_reward.title"
+    },
+    "description": {
+      "translate": "advancements.the_last_reward.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_last_reward_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "outer_end_wilds:canvas_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999999999999999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "outer_end_wilds:craft_canvas",
+      "outer_end_wilds:cut_canvas_1",
+      "outer_end_wilds:cut_canvas_2",
+      "outer_end_wilds:cut_canvas_3",
+      "outer_end_wilds:cutcanvas_4",
+      "outer_end_wilds:cut_canvas_5",
+      "outer_end_wilds:cut_canvas_6",
+      "outer_end_wilds:cut_canvas_7",
+      "outer_end_wilds:cut_canvas_8"
+    ]
+  },
+  "parent": "outer_end_wilds:end_wilds_adv"
+}

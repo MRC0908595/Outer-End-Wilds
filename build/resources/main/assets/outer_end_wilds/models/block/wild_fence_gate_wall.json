@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "particle": "outer_end_wilds:block/endplanks",
+    "texture": "outer_end_wilds:block/endplanks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "outer_end_wilds:wild_nylium"
+    },
+    "title": {
+      "translate": "advancements.end_wilds_adv.title"
+    },
+    "description": {
+      "translate": "advancements.end_wilds_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "end_wilds_adv_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "outer_end_wilds:end_wilds"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "outer_end_wilds:wild_planks_log_recipe",
+      "outer_end_wilds:wild_stairs_recipe",
+      "outer_end_wilds:wild_slab_recipe",
+      "outer_end_wilds:wild_fence_recipe",
+      "outer_end_wilds:wild_fence_gate_recipe",
+      "outer_end_wilds:wild_pressure_plate_recipe",
+      "outer_end_wilds:wild_button_recipe",
+      "outer_end_wilds:wild_stick_recipe",
+      "outer_end_wilds:craftbark",
+      "outer_end_wilds:wildplankswood",
+      "outer_end_wilds:craft_petals",
+      "outer_end_wilds:smith_enderite_1",
+      "outer_end_wilds:smith_enderite_2",
+      "outer_end_wilds:smith_enderite_3",
+      "outer_end_wilds:smith_enderite_4",
+      "outer_end_wilds:craft_canvas",
+      "outer_end_wilds:smelt",
+      "outer_end_wilds:craft_claymore",
+      "outer_end_wilds:dupe_enderite_template"
+    ]
+  },
+  "parent": "outer_end_wilds:titledrop"
+}

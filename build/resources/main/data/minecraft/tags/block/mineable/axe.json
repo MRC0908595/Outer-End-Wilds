@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "outer_end_wilds:stripped_wild_wood",
+    "outer_end_wilds:stripped_wild_log",
+    "outer_end_wilds:wild_wood",
+    "outer_end_wilds:wild_button",
+    "outer_end_wilds:wild_pressure_plate",
+    "outer_end_wilds:wild_fence_gate",
+    "outer_end_wilds:wild_fence",
+    "outer_end_wilds:wild_slab",
+    "outer_end_wilds:wild_stairs",
+    "outer_end_wilds:wild_planks",
+    "outer_end_wilds:wild_log"
+  ]
+}

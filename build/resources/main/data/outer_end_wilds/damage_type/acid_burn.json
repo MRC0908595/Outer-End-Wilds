@@ -1,0 +1,6 @@
+{
+  "exhaustion": 0.08,
+  "message_id": "acid_burn",
+  "scaling": "always",
+  "effects": "burning"
+}

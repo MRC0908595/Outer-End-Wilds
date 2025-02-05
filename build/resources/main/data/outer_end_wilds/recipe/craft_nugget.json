@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "outer_end_wilds:enderite_ingot"
+    }
+  },
+  "result": {
+    "id": "outer_end_wilds:enderite_nugget",
+    "count": 9
+  }
+}

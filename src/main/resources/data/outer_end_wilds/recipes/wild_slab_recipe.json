@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "outer_end_wilds:wild_planks"
+    }
+  },
+  "result": {
+    "item": "outer_end_wilds:wild_slab",
+    "count": 6
+  }
+}

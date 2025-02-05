@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "outer_end_wilds:block/canvas1bottom",
+    "bottom": "outer_end_wilds:block/canvas1bottom",
+    "top": "outer_end_wilds:block/canvas1top",
+    "side": "outer_end_wilds:block/canvasslab"
+  },
+  "render_type": "solid"
+}

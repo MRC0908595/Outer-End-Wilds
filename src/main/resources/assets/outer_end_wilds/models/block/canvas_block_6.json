@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outer_end_wilds:block/canvasbricksmario",
+    "particle": "outer_end_wilds:block/canvasbricksmario"
+  },
+  "render_type": "solid"
+}

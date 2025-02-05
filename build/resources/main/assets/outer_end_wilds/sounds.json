@@ -1,0 +1,38 @@
+{
+  "snarelinghurt": {
+    "subtitle": "subtitles.snarelinghurt",
+    "sounds": [
+      {
+        "name": "outer_end_wilds:snareling_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "snarelingdie": {
+    "subtitle": "subtitles.snarelingdie",
+    "sounds": [
+      {
+        "name": "outer_end_wilds:snareling_death",
+        "stream": false
+      }
+    ]
+  },
+  "snarelingidle": {
+    "subtitle": "subtitles.snarelingidle",
+    "sounds": [
+      {
+        "name": "outer_end_wilds:snareling_idle",
+        "stream": false
+      }
+    ]
+  },
+  "snareling_teleport": {
+    "subtitle": "subtitles.snareling_teleport",
+    "sounds": [
+      {
+        "name": "outer_end_wilds:d6_sfx_mob_snarelingstun-001",
+        "stream": false
+      }
+    ]
+  }
+}

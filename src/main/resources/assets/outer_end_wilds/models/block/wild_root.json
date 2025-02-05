@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "outer_end_wilds:block/tall_grass_top",
+    "particle": "outer_end_wilds:block/tall_grass_top"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "outer_end_wilds:block/polishedslate",
+    "particle": "outer_end_wilds:block/polishedslate"
+  },
+  "render_type": "solid"
+}

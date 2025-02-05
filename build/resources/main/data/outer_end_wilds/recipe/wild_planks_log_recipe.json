@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "outer_end_wilds:wild_log"
+    }
+  ],
+  "result": {
+    "id": "outer_end_wilds:wild_planks",
+    "count": 4
+  }
+}

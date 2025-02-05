@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "outer_end_wilds:twist_flower"
+    }
+  ],
+  "result": {
+    "id": "outer_end_wilds:twist_petals",
+    "count": 4
+  }
+}
